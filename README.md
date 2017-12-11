@@ -11,5 +11,5 @@ How to use FontAwesome 5 otf fonts with XeLaTeX
 2. Extract latest otf fonts and icons.json metadata from zip.
 2. Run createDefinitions.js with nodejs to generate new fontawesomesymbols.tex
 
-#Using ShareLatex.com? 
+# Using ShareLatex.com? 
 Don't forget to set compiler to XeLaTex

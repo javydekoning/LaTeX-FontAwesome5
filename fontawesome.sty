@@ -1,0 +1,38 @@
+% Font Awesome Free bindings for XeLaTeX.
+%
+% Inspiration from: 
+%
+% Author: Honza Ustohal <honza@egoistic.biz>
+% (https://gist.github.com/sway/3101743)
+%
+% Updated for FontAwesome 5 by Daniel P. Shannon <daniel@daniel.sh>.
+%
+% Translation of FontAwesome's private range characters into XeTeX symbols. All
+% icons are camel-cased and prefixed with 'fa', i.e. what was .fa-address-book
+% in the CSS version of FontAwesome becomes \faAddressBook.
+%
+% Requirements: XeLaTeX, FontAwesome 5 Free fonts 
+%
+%Usage:
+% 1. Save this file to your project folder as fontawesome.sty.
+% 2. Put \usepackage{fontawesome} into your preamble.
+
+\newfontfamily{\FAB}[
+Path = fonts/fontawesome/opentype/ ,
+Scale = 1.0 ,
+SmallCapsFont = *
+]{Font Awesome 5 Brands-Regular-400}
+
+\newfontfamily{\FAR}[
+Path = fonts/fontawesome/opentype/ ,
+Scale = 1.0 ,
+SmallCapsFont = *
+]{Font Awesome 5 Free-Regular-400}
+
+\newfontfamily{\FAS}[
+Path = fonts/fontawesome/opentype/ ,
+Scale = 1.0 ,
+SmallCapsFont = *
+]{Font Awesome 5 Free-Solid-900}
+
+\include{fontawesomesymbols.tex}

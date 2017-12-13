@@ -1,45 +1,23 @@
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Document info
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Author:   Javy de Koning
 % Version:  2017-12-11
-% Compiler: XeLatex using ShareLatex.com
-% Requires: Fontawesome 5.0.1 
-%----------------------------------------------------------------------------------------
+% Compiler: XeLaTeX using sharelatex.com
+% Requires: Font Awesome >= 5.0.1, XeLaTeX
+%-------------------------------------------------------------------------------
 \documentclass[a4paper, oneside, final]{article}
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % LOAD PACKAGES
-%----------------------------------------------------------------------------------------
-\usepackage{fontspec}
-\usepackage{fontawesome}                         % FontAwesome Font Icons
-\usepackage{hyperref,url}                        % Allows url links
-\usepackage[a4paper, margin=0.75in]{geometry}
+%-------------------------------------------------------------------------------
+\usepackage{fontawesome} % Load fontawesome.str
 
+%-------------------------------------------------------------------------------
+% Start document
+%-------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------
-% Example resume header using FA5
-%----------------------------------------------------------------------------------------
 \begin{document}
-\begin{center}
-
-
-\fontsize{28}{28}\selectfont\scshape
-Javy de Koning, MSc.\\
-
-% Contact info
-\fontsize{10}{10}\selectfont\scshape
-{\faEnvelopeS} \url{JavydeKoning@Gmail.com}
-{\faPhoneSquare} (+31)6-123 456 789 
-{\faCalendarS} Nov 6\textsuperscript{th}, 1986\\
-
-{\faMapMarker} Stationsplantsoen 1A 
-{\large\textperiodcentered} 1234AB 
-{\large\textperiodcentered} Amsterdam (The Netherlands) \\
-
-{\faTwitter} \href{https://twitter.com/javydekoning}{@JavydeKoning} 
-{\faGitHubSquare} \url{github.com/JavydeKoning/} 
-{\faLinkedIn} \url{linkedin.com/in/JavydeKoning}
-
-\end{center}
+This is an envelope icon: \faEnvelopeR \\
+and this is the git logo: \faGit
 \end{document}

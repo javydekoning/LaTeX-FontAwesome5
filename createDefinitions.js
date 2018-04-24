@@ -66,7 +66,7 @@ function parseIconsFile(obj) {
             var symbol = '\\symbol{"' + obj[i].unicode.toUpperCase() + '}'
             
             //Concatenate the string
-            var str = start + name + suffix + '{' + prefix + symbol + '}'
+            var str = start + name + suffix + '{' + '{' + prefix + symbol + '}' + '}'
             
             //add to results
             results.push(str);
